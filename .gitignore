@@ -1,1 +1,4 @@
 node_modules/
+test.rest
+todo-app.rest
+.env
