@@ -1,0 +1,18 @@
+### TEST GET / WEBSITE
+GET http://localhost:8383/
+
+### TEST GET /dasboard WEBSITE
+GET http://localhost:8383/dashboard
+
+### TEST GET /api/data WEBSITE
+GET http://localhost:8383/api/data
+
+### TEST POST /api/data WEBSITE
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "name": "khaled khedr",
+    "age": "23"
+}
+
